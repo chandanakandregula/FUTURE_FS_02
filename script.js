@@ -30,8 +30,6 @@ button.addEventListener("click", function() {
 
     customers.push(customer);
     updateCustomerCount();
-    customerItem.remove();
-
     localStorage.setItem("customers", JSON.stringify(customers));
 
     addCustomerToList(customer);
